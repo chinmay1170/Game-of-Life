@@ -206,7 +206,7 @@ class Main extends Component {
 
     for (let i = 0; i < this.rows; i++) {
       for (let j = 0; j < this.cols; j++) {
-        //Counting Number of neighbours
+        //Counting Number of alive neighbours
         let count = 0;
         if (i > 0) if (g[i - 1][j]) count++;
         if (i > 0 && j > 0) if (g[i - 1][j - 1]) count++;
